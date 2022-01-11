@@ -1,0 +1,13 @@
+<div class="container">
+  <form>
+    <input type="text" name="numberI" placeholder="enter the number" [(ngModel)]="numberI" >
+    <button type="submit" (click)="onKey()">Fetch</button>
+  </form>
+  <div class="img">
+    <img src="{{img}}" alt="user">
+  </div>
+  <h1>{{name}}</h1>
+  <div>#{{id}}. {{status}} {{species}} {{gender}}</div>
+  <div>Origin: {{origin}}</div>
+  <div>Location: {{location}}</div>
+</div>
